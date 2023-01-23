@@ -1,0 +1,569 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Light.eot");
+  src: url("../font/Inter-Light.eot?#iefix") format("embedded-opentype"), url("../font/Inter-Light.woff2") format("woff2"), url("../font/Inter-Light.woff") format("woff"), url("../font/Inter-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-ExtraBold.eot");
+  src: url("../font/Inter-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../font/Inter-ExtraBold.woff2") format("woff2"), url("../font/Inter-ExtraBold.woff") format("woff"), url("../font/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Bold.eot");
+  src: url("../font/Inter-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Inter-Bold.woff2") format("woff2"), url("../font/Inter-Bold.woff") format("woff"), url("../font/Inter-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Medium.eot");
+  src: url("../font/Inter-Medium.eot?#iefix") format("embedded-opentype"), url("../font/Inter-Medium.woff2") format("woff2"), url("../font/Inter-Medium.woff") format("woff"), url("../font/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Regular.eot");
+  src: url("../font/Inter-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Inter-Regular.woff2") format("woff2"), url("../font/Inter-Regular.woff") format("woff"), url("../font/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-SemiBold.eot");
+  src: url("../font/Inter-SemiBold.eot?#iefix") format("embedded-opentype"), url("../font/Inter-SemiBold.woff2") format("woff2"), url("../font/Inter-SemiBold.woff") format("woff"), url("../font/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-ExtraLight.eot");
+  src: url("../font/Inter-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../font/Inter-ExtraLight.woff2") format("woff2"), url("../font/Inter-ExtraLight.woff") format("woff"), url("../font/Inter-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Black.eot");
+  src: url("../font/Inter-Black.eot?#iefix") format("embedded-opentype"), url("../font/Inter-Black.woff2") format("woff2"), url("../font/Inter-Black.woff") format("woff"), url("../font/Inter-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Thin.eot");
+  src: url("../font/Inter-Thin.eot?#iefix") format("embedded-opentype"), url("../font/Inter-Thin.woff2") format("woff2"), url("../font/Inter-Thin.woff") format("woff"), url("../font/Inter-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  font-family: "Inter";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+html {
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blockcontent {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.firstblock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/IMAGE (11).png");
+  background-size: cover;
+  aspect-ratio: 16/9;
+}
+.firstblock .blockcontent .header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15.5%;
+  margin-right: 6.7%;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+}
+.firstblock .blockcontent .header div.menu,
+.firstblock .blockcontent .header div.connects {
+  display: flex;
+  flex-direction: row;
+}
+.firstblock .blockcontent .header div.menu a,
+.firstblock .blockcontent .header div.connects a {
+  padding: 1rem;
+  font-size: 0.69rem;
+  line-height: 2.2em;
+  color: #E4D8CC;
+  text-transform: uppercase;
+}
+.firstblock .blockcontent .info {
+  margin-left: 4rem;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 22.75rem;
+  margin-bottom: 7.25rem;
+}
+.firstblock .blockcontent .info .title {
+  font-size: 3.56rem;
+  line-height: 1.06em;
+  color: #E4D8CC;
+  margin-bottom: 0.875rem;
+}
+.firstblock .blockcontent .info .text {
+  font-size: 1.125rem;
+  line-height: 1.55em;
+  color: #C3BAB1;
+  margin-bottom: 2.625rem;
+}
+.firstblock .blockcontent .info div.buttons button {
+  border: none;
+  border-radius: 6rem;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: white;
+  padding: 0.875rem 2.125rem;
+}
+.firstblock .blockcontent .info div.buttons :nth-child(1) {
+  background-color: #7837F3;
+  margin-right: 0.875rem;
+}
+.firstblock .blockcontent .info div.buttons :nth-child(2) {
+  background-color: rgba(228, 216, 204, 0.5);
+}
+
+.secondblock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #E4D8CC;
+}
+.secondblock .blockcontent .bonus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4.75rem 4rem;
+  grid-gap: 9.2%;
+  align-items: center;
+}
+.secondblock .blockcontent .bonus .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.secondblock .blockcontent .bonus .text p {
+  color: #101010;
+  overflow-wrap: break-word;
+}
+.secondblock .blockcontent .bonus .text :nth-child(1) {
+  font-size: 3.375rem;
+  line-height: 1.07em;
+  margin-bottom: 1rem;
+}
+.secondblock .blockcontent .bonus .text :nth-child(2) {
+  font-size: 1rem;
+  line-height: 1.375em;
+}
+.secondblock .blockcontent .bonus img {
+  aspect-ratio: 190/100;
+  width: 100%;
+}
+.secondblock .blockcontent .blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4rem;
+}
+.secondblock .blockcontent .blocks :nth-child(1) .text .point .number {
+  background-color: #B99FEA;
+}
+.secondblock .blockcontent .blocks :nth-child(2) .text .point .number {
+  background-color: #EBA789;
+}
+.secondblock .blockcontent .blocks :nth-child(3) .text .point .number {
+  background-color: #96DBC6;
+}
+.secondblock .blockcontent .blocks div.blocksblock {
+  padding: 7.75rem 0 6.31rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10.3%;
+  align-items: center;
+}
+.secondblock .blockcontent .blocks div.blocksblock img {
+  aspect-ratio: 1/1;
+  border-radius: 0.75rem;
+  width: 100%;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text div.point {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.13rem;
+  align-items: center;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text div.point div.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 4.625rem;
+  height: 4.625rem;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text div.point div.number p {
+  font-size: 2.375rem;
+  text-align: center;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text div.point p.bonus_text {
+  font-size: 1.18rem;
+  line-height: 1.9em;
+  margin-left: 0.75rem;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text p.name {
+  font-size: 2.2rem;
+  line-height: 1.3em;
+  margin-bottom: 0.69rem;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text a.expand {
+  margin-bottom: 2.8rem;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text a.expand div {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.125rem #101010 solid;
+  align-items: baseline;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text a.expand div p {
+  color: #101010;
+  letter-spacing: 0.16em;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text a.expand div :nth-child(1):before {
+  content: "Expand";
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 2.5em;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text a.expand div :nth-child(2):before {
+  content: "↓";
+  font-size: 1rem;
+  margin-left: 0.625rem;
+}
+.secondblock .blockcontent .blocks div.blocksblock div.text p.desc {
+  font-size: 0.88rem;
+  line-height: 1.58em;
+}
+
+.thirdblock {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.thirdblock .blockcontent {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  padding: 5rem 4rem;
+}
+.thirdblock .blockcontent div.hr {
+  width: 0;
+  border: 1px solid rgba(228, 216, 204, 0.1);
+}
+.thirdblock .blockcontent .quote {
+  padding: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.thirdblock .blockcontent .quote img.cav {
+  width: 4.5rem;
+  margin-bottom: 3rem;
+}
+.thirdblock .blockcontent .quote p.quote_text {
+  font-size: 1.5rem;
+  line-height: 1.33em;
+  margin-bottom: 4rem;
+  color: #E4D8CC;
+  text-align: center;
+}
+.thirdblock .blockcontent .quote div.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4.5rem;
+}
+.thirdblock .blockcontent .quote div.author p.author_text {
+  font-size: 0.88rem;
+  line-height: 1.71em;
+  color: #E4D8CC;
+  margin-left: 1.8rem;
+}
+.thirdblock .blockcontent .quote div.author img {
+  height: 100%;
+}
+.thirdblock .blockcontent .quote:nth-child(1) div.author img {
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+}
+.thirdblock .blockcontent .quote:nth-child(3) div.author img {
+  height: 50%;
+}
+
+.fourthblock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #101010;
+}
+.fourthblock .blockcontent div.content {
+  margin: 6.25rem 4rem 4.5rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10.4%;
+}
+.fourthblock .blockcontent div.content .questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.fourthblock .blockcontent div.content .questions p.title {
+  font-size: 2.25rem;
+  line-height: 1.25em;
+  color: #E4D8CC;
+  margin-bottom: -0.5rem;
+}
+.fourthblock .blockcontent div.content .questions a {
+  color: #B99FEA;
+  font-size: 1.25rem;
+  line-height: 1.4em;
+}
+.fourthblock .blockcontent div.content img {
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.fifthblock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/IMAGE (19).png");
+  background-size: cover;
+}
+.fifthblock .blockcontent div.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5.375rem 4rem;
+}
+.fifthblock .blockcontent div.content p.name {
+  color: #C3BAB1;
+  font-size: 0.94rem;
+  line-height: 1.07em;
+  margin-bottom: 1.12rem;
+}
+.fifthblock .blockcontent div.content p.title {
+  color: #E7DFD8;
+  font-size: 3rem;
+  line-height: 1.125em;
+  margin-bottom: 2.2rem;
+  max-width: 50%;
+}
+.fifthblock .blockcontent div.content a.link div {
+  border-bottom: #E4D8CC 1px solid;
+}
+.fifthblock .blockcontent div.content a.link div p {
+  font-size: 0.75rem;
+  line-height: 1.67em;
+  color: #E4D8CC;
+  margin-bottom: 0.93rem;
+  letter-spacing: 0.16em;
+}
+
+.footerblock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #101010;
+}
+.footerblock .blockcontent .content {
+  margin: 4.8rem 4rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footerblock .blockcontent .content .form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 5.375rem;
+}
+.footerblock .blockcontent .content .form div {
+  display: flex;
+  flex-direction: column;
+}
+.footerblock .blockcontent .content .form div p {
+  color: #E4D8CC;
+  font-size: 1.44rem;
+  line-height: 1.04em;
+  margin-bottom: 1.19rem;
+}
+.footerblock .blockcontent .content .form div button {
+  font-size: 1rem;
+  line-height: 1.5em;
+  padding: 0.56rem 1.56rem;
+  border-radius: 6rem;
+}
+.footerblock .blockcontent .content .form div.selling {
+  margin-right: 2.625rem;
+}
+.footerblock .blockcontent .content .form div.selling button {
+  font-size: 1rem;
+  background-color: #7837F3;
+  color: white;
+}
+.footerblock .blockcontent .content .form div.email button {
+  background-color: transparent;
+  border: 0.06rem solid #E4D8CC;
+  font-size: 0.94rem;
+  color: #E4D8CC;
+}
+.footerblock .blockcontent .content .nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 7.5rem;
+}
+.footerblock .blockcontent .content .nav div.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footerblock .blockcontent .content .nav div.columns div.column {
+  display: flex;
+  flex-direction: column;
+}
+.footerblock .blockcontent .content .nav div.columns div.column p,
+.footerblock .blockcontent .content .nav div.columns div.column a {
+  color: #E4D8CC;
+  margin-bottom: 3rem;
+}
+.footerblock .blockcontent .content .nav div.columns div.column p.title {
+  font-size: 1.25rem;
+}
+.footerblock .blockcontent .content .nav div.columns div.column a {
+  font-size: 1rem;
+}
+.footerblock .blockcontent .content .nav div.decoration {
+  margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerblock .blockcontent .content .nav div.decoration p {
+  color: #E4D8CC;
+  font-size: 0.94rem;
+  margin-top: 3rem;
+}
+.footerblock .blockcontent .content .nav div.decoration img {
+  aspect-ratio: 1/1;
+  max-height: 3.5rem;
+}
+.footerblock .blockcontent .content .share {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: rgba(228, 216, 204, 0.16) 0.06rem solid;
+  align-items: center;
+  height: 5rem;
+}
+.footerblock .blockcontent .content .share img {
+  height: 30%;
+  aspect-ratio: 1/1;
+}
+.footerblock .blockcontent .content .share p:before {
+  font-size: 0.69rem;
+  content: "© 2022 Bonus Inc. | Privacy Policy";
+  color: #E4D8CC;
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 12px;
+  }
+  div.firstblock .blockcontent .header {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  div.firstblock .blockcontent .header {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 6px;
+  }
+  div.firstblock .blockcontent .header {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
